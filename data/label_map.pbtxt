@@ -1,0 +1,28 @@
+item {
+    id: 1
+    name: 'go'
+}
+item {
+    id: 2
+    name: 'stop'
+}
+item {
+    id: 3
+    name: 'person'
+}
+item {
+    id: 4
+    name: 'turn left'
+}
+item {
+    id: 5
+    name: 'turn right'
+}
+item {
+    id: 6
+    name: '20'
+}
+item {
+    id: 7
+    name: '40'
+}
