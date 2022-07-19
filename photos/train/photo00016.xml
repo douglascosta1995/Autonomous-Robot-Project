@@ -1,0 +1,50 @@
+<annotation>
+	<folder>train</folder>
+	<filename>photo00016.jpg</filename>
+	<path>/Users/douglascosta/Documents/iCloud Drive (Archive)/Documents/Obuda/7TH SEMESTER/DIPLOMA WORK/object_recognition_and_lane_detection/photos/train/photo00016.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>600</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stop</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>104</xmin>
+			<ymin>48</ymin>
+			<xmax>164</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>go</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>225</xmin>
+			<ymin>159</ymin>
+			<xmax>284</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>turn right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>394</xmin>
+			<ymin>31</ymin>
+			<xmax>436</xmax>
+			<ymax>86</ymax>
+		</bndbox>
+	</object>
+</annotation>

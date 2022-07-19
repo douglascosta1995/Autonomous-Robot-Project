@@ -1,0 +1,62 @@
+<annotation>
+	<folder>test</folder>
+	<filename>photo5.jpg</filename>
+	<path>/Users/douglascosta/Documents/iCloud Drive (Archive)/Documents/Obuda/7TH SEMESTER/DIPLOMA WORK/object_recognition_and_lane_detection/photos/test/photo5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3280</width>
+		<height>2464</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>turn right</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>779</xmin>
+			<ymin>581</ymin>
+			<xmax>1005</xmax>
+			<ymax>839</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>turn left</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1525</xmin>
+			<ymin>530</ymin>
+			<xmax>1747</xmax>
+			<ymax>826</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>40</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1870</xmin>
+			<ymin>262</ymin>
+			<xmax>2076</xmax>
+			<ymax>552</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>go</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2502</xmin>
+			<ymin>736</ymin>
+			<xmax>2728</xmax>
+			<ymax>1094</ymax>
+		</bndbox>
+	</object>
+</annotation>
