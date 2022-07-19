@@ -36,9 +36,6 @@ def turn_right(command):
         GPIO.output(Forward, GPIO.HIGH)
         pwm.start(100)
         pwm2.start(100)
-        #pwm.ChangeDutyCycle(75)
-        #pwm2.ChangeDutyCycle(75)
-        #time.sleep(0.5)
         pwm.ChangeDutyCycle(0)
         pwm2.ChangeDutyCycle(100)
         #time.sleep(1)
@@ -52,12 +49,8 @@ def turn_left(command):
         GPIO.output(Forward, GPIO.HIGH)
         pwm.start(100)
         pwm2.start(100)
-        #pwm.ChangeDutyCycle(75)
-        #pwm2.ChangeDutyCycle(75)
-        #time.sleep(0.5)
         pwm.ChangeDutyCycle(100)
         pwm2.ChangeDutyCycle(0)
-        #time.sleep(1)
 
 def go_straight_with_speed(speed):
     #speed goes from 0(slowest) to 100 (fastest)
@@ -65,10 +58,8 @@ def go_straight_with_speed(speed):
     pwm2.start(speed)
     GPIO.output(Forward2, GPIO.HIGH)
     GPIO.output(Forward, GPIO.HIGH)
-    #print("Moving Forward")
     pwm.ChangeDutyCycle(speed)
     pwm2.ChangeDutyCycle(speed)
-    #time.sleep(1)
 
 def stop():
     pwm.stop()
